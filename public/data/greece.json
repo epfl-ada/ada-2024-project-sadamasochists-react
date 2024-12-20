@@ -1,0 +1,79 @@
+{
+    "country": "greece",
+    "similar": [
+      {
+        "country": "Czechia",
+        "score": 0.985
+      },
+      {
+        "country": "Norway",
+        "score": 0.987
+      },
+      {
+        "country": "Netherlands",
+        "score": 0.986
+      }
+    ],
+    "representative_reviews": [
+      {
+        "review": "0.5l bottle. Dark orange body with a minimal off-white head. Aroma of toast, a minimal caramel and some fruity, floral hoppyness. The taste is like the aroma, but with more hop bitterness. A really ni...",
+        "score": 0.891
+      },
+      {
+        "review": "0.5l bottle. Dark orange body, white head. Aroma and taste of caramel, toast and a tiny bit of roastyness. The taste also has some dark fruits and some floral hoppyness. OK beer.",
+        "score": 0.888
+      },
+      {
+        "review": "Bottle. Clear deep yellow/orange color with a small white head, disappearing. Aroma is malty, sweet. Taste is malty, grassy hops, with a nice bitterness, maybe too much for a so called lager. Medium c...",
+        "score": 0.886
+      }
+    ],
+    "brewery_data": {
+      "breweries": [
+        {
+          "name": "Athens Beer",
+          "beers": [
+            {
+              "name": "Athens Beer Pilsner",
+              "style": "Pilsner",
+              "abv": 4.5,
+              "average_score": 3.9
+            },
+            {
+              "name": "Athens Beer Lager",
+              "style": "Lager",
+              "abv": 4.5,
+              "average_score": 5.0
+            },
+            {
+              "name": "Athens Beer Ale",
+              "style": "Ale",
+              "abv": 4.5,
+              "score": 2.9
+            }
+          ],
+          "average_rating": 4.5,
+          "average_national_rating": 4.9
+        },
+        {
+          "name": "Thessaloniki Beer",
+          "beers": [
+            {
+              "name": "Thessaloniki Beer Pilsner",
+              "style": "Pilsner",
+              "abv": 4.5,
+              "score": 4.9
+            },
+            {
+              "name": "Thessaloniki Beer Lager",
+              "style": "Lager",
+              "abv": 4.5,
+              "score": 4.1
+            }
+          ],
+          "average_rating": 4.1,
+          "average_national_rating": 4.7
+        }
+      ]
+    }
+  }
