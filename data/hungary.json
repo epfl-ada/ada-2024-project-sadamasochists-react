@@ -1,0 +1,31 @@
+{
+    "country": "Hungary",
+    "similar": [
+      {
+        "country": "Czechia",
+        "score": 0.988
+      },
+      {
+        "country": "Germany",
+        "score": 0.985
+      },
+      {
+        "country": "Spain",
+        "score": 0.985
+      }
+    ],
+    "representative_reviews": [
+      {
+        "review": "0.5l bottle. Dark orange body with a minimal off-white head. Aroma of toast, a minimal caramel and some fruity, floral hoppyness. The taste is like the aroma, but with more hop bitterness. A really ni...",
+        "score": 0.891
+      },
+      {
+        "review": "0.5l bottle. Dark orange body, white head. Aroma and taste of caramel, toast and a tiny bit of roastyness. The taste also has some dark fruits and some floral hoppyness. OK beer.",
+        "score": 0.888
+      },
+      {
+        "review": "Bottle. Clear deep yellow/orange color with a small white head, disappearing. Aroma is malty, sweet. Taste is malty, grassy hops, with a nice bitterness, maybe too much for a so called lager. Medium c...",
+        "score": 0.886
+      }
+    ]
+  }
