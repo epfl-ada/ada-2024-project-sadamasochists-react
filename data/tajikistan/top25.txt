@@ -1,0 +1,6 @@
+bar 1
+beerjust 1
+find 1
+near 1
+need 1
+restaurant 1

@@ -1,0 +1,12 @@
+pilsener 3
+absolutely 1
+beer 1
+brilliant 1
+color 1
+fine 1
+foam 1
+golden 1
+nice 1
+real 1
+taste 1
+waterlike 1

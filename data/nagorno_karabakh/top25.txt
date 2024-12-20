@@ -1,0 +1,17 @@
+beerclean 1
+beverage 1
+bitterness 1
+budget 1
+citrus 1
+deliveredlittle 1
+expect 1
+flavour 1
+fresha 1
+fullmouthe 1
+fullrounded 1
+light 1
+pilsener 1
+produce 1
+promise 1
+summer 1
+wellhoppe 1

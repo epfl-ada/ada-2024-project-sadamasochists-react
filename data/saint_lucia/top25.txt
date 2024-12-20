@@ -1,0 +1,9 @@
+cask 1
+excellent 1
+fresh 1
+good 1
+hoppy 1
+lasting 1
+overall 1
+tap 1
+taste 1

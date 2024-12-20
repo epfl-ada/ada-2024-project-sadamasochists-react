@@ -1,0 +1,16 @@
+good 2
+acceptable 1
+alcohol 1
+appearance 1
+cigarette 1
+coldrex 1
+go 1
+lemon 1
+like 1
+little 1
+mix 1
+movie 1
+overall 1
+percentage 1
+taste 1
+tea 1

@@ -1,0 +1,14 @@
+drink 3
+beer 2
+cheap 1
+decent 1
+drunk 1
+fresher 1
+great 1
+itâs 1
+passion 1
+slow 1
+tap 1
+want 1
+way 1
+well 1

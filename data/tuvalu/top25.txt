@@ -1,0 +1,16 @@
+ipa 2
+belgium 1
+bit 1
+brevinga 1
+drink 1
+easy 1
+fairly 1
+get 1
+hoppy 1
+new 1
+nice 1
+ramger 1
+remind 1
+rga 1
+s 1
+serve 1
