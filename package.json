@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "next build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d .next"
   },
   "dependencies": {
     "@radix-ui/react-slider": "^1.2.2",
