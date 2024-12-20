@@ -1,15 +1,19 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: "export",
+  basePath: "/ada-2024-project-sadamasochists-react",
+  assetPrefix: "/ada-2024-project-sadamasochists-react",  // Removed trailing slash
+  trailingSlash: true,
+  images: {
+    unoptimized: true, // Add this for static export
+  },
   typescript: {
-    ignoreBuildErrors: true, // Disable type checking during the build
+    ignoreBuildErrors: true,
   },
   eslint: {
-    ignoreDuringBuilds: true, // Disable ESLint checks during the build
+    ignoreDuringBuilds: true,
   },
-  output: "export", // Ensure the app is statically exported
-  basePath: "/ada-2024-project-sadamasochists-react", // GitHub Pages base path
-  trailingSlash: true, // Add trailing slashes to routes for static deployment
 };
 
 export default nextConfig;

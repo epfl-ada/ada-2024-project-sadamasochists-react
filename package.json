@@ -3,14 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://epfl-ada.github.io/ada-2024-project-sadamasochists-react",
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "predeploy": "next build && next export",
-    "deploy": "gh-pages -d out"
-  },
+  
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint",
+      "predeploy": "npm run build",
+      "deploy": "touch out/.nojekyll && gh-pages -d out -t true"
+    },
+  
   "dependencies": {
     "@radix-ui/react-slider": "^1.2.2",
     "@radix-ui/react-slot": "^1.1.1",
