@@ -17,7 +17,7 @@ interface GlobeProps {
 }
 
 const fixCountryName = (country: string): string => {
-  const fixes = {
+  const fixes: Record<string, string> = {
     'united states of america': 'United States',
     'czechia': 'Czech Republic',
     'fiji': 'Fiji Islands',
@@ -55,6 +55,7 @@ const GlobeComponent: React.FC<GlobeProps> = ({
   useEffect(() => {
     if (!globeRef.current) return;
 
+    // @ts-ignore
     const globe = Globe()
       .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
       .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
@@ -65,7 +66,7 @@ const GlobeComponent: React.FC<GlobeProps> = ({
       .polygonCapColor((feat: any) => feat.__color || '#6d6d6d')
       .polygonSideColor(() => '#232323')
       .polygonStrokeColor(() => '#111')
-      .onPolygonClick(async (polygon: any, event: any, { lat, lng }) => {
+      .onPolygonClick(async (polygon: any, event: any, { lat, lng }: { lat: number; lng: number }) => {
         if (!polygon || !onCountryClick) return;
 
         const countryName = fixCountryName(polygon.properties.ADMIN || polygon.properties.name);
@@ -75,7 +76,7 @@ const GlobeComponent: React.FC<GlobeProps> = ({
           const countryInfo = {
             name: countryName,
             code: polygon.properties.ISO_A2 || polygon.properties.ISO_A3 || 'Unknown',
-            coordinates: [lat, lng]
+            coordinates: [lat, lng] as [number, number]
           };
 
           // Reset colors of the previous selection

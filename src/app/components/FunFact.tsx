@@ -2,7 +2,7 @@
 
 import { Panel } from "./panels";
 
-const facts = {
+const facts: Record<string, string> = {
   "Japan": "In 1994, Japan revised its tax laws, allowing the establishment of smaller breweries producing as little as 60,000 liters per year, spurring a boom in microbreweries called 'Ji Bīru.'",
   "Ireland": "Guinness, brewed in nearly 50 countries, has fewer calories than most light beers and is an iconic Irish stout.",
   "Thailand": "Thailand's beer market is led by Singha and Chang, with Singha being the oldest, introduced in 1933.",

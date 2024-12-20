@@ -22,7 +22,7 @@ const CountrySearch: React.FC<CountrySearchProps> = ({ onCountrySelect }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [isOpen, setIsOpen] = useState(false);
   const [countries, setCountries] = useState<CountryOption[]>([]);
-  const [loading, setLoading] = useState(false);
+
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Load and check available countries
